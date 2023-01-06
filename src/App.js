@@ -20,10 +20,10 @@ function App() {
 
           <div>
             <Routes>
-              <Route path='/' element={<Home />} />
-              <Route path='/Events' element={<Events />} />
-              <Route path='/ContactUs' element={<Contact />} />
-              <Route path='/ContactUs' element={<About />} />
+              <Route path='/golfclub/' element={<Home />} />
+              <Route path='/golfclub/Events' element={<Events />} />
+              <Route path='/golfclub/ContactUs' element={<Contact />} />
+              <Route path='/golfclub/ContactUs' element={<About />} />
 
             </Routes>
           </div>
