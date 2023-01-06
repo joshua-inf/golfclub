@@ -10,7 +10,7 @@ const Navitem = () => {
 
     return (
         <>
-            <Navbar style={{ backgroundColor: '#3c4d2e' }} variant='dark' expand="lg">
+            <Navbar style={{ backgroundColor: '#3c4d2e', zIndex:'1' }} variant='dark' expand="lg">
                 <Container style={{ display: 'flex', justifyContent: 's' }}>
                     <LinkContainer to='/golfclub/'>
                         <Navbar.Brand href="#home"><img width='60px' src={image} alt='' /></Navbar.Brand>
