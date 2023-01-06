@@ -1,0 +1,19 @@
+.bg {
+    cursor: pointer;
+    transition: 0.9s;
+    color: black;
+    overflow: hidden;
+}
+
+.bg:hover {
+    background-color: #526c3c;
+    color: white;
+}
+
+.bg:hover .img {
+    transform: scale(1.5);
+    transition: 0.5s;
+}
+.img {
+    transition: 0.5s;
+}

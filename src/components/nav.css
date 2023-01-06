@@ -1,0 +1,27 @@
+@media screen and (max-width: 600px) {
+    .NavLink {
+        position: absolute;
+        top:80px;
+        text-align: center;
+        right:0;
+        left: 0;
+        height: 0px;
+        background-color: #3c4d2e;
+        overflow-y: hidden;
+        z-index: 1;
+    }
+    .button {
+        display: block;
+    }
+    
+}
+
+@media screen and (min-width: 601px) {
+    .NavLink {
+        display: flex;
+        gap: 30px;
+    }
+    .button {
+        display: none;
+    }
+}

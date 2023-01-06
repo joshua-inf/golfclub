@@ -1,0 +1,29 @@
+.id1 {
+  width: 0%;
+  background-color: white;
+  height: 2px;
+  transition: 0.4s;
+}
+nav li:hover .id1 {
+  width: 100%;
+} 
+
+nav a {
+  text-decoration: none;
+  color: white;
+}
+body {
+  margin: 0;
+  font-family:'Laxend Deca', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+li {
+  list-style-type: none;
+}
