@@ -16,7 +16,7 @@ const Shop = () => {
                 <div className="py-5 px-3">
                     <div className="row">
                         {stuff.map((e) => (
-                            <div className="col-3">
+                            <div className=" mt-3 col-12 col-md-6 col-lg-3">
                             <div style={{}} className="card shadow">
                                 <div>
                                 <img alt='' style={{width:'100%'}} src={e.image} />
