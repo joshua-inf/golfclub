@@ -1,27 +1,39 @@
-@media screen and (max-width: 600px) {
-    .NavLink {
-        position: absolute;
-        top:80px;
-        text-align: center;
-        right:0;
-        left: 0;
-        height: 0px;
-        background-color: #3c4d2e;
-        overflow-y: hidden;
-        z-index: 1;
-    }
-    .button {
-        display: block;
-    }
+@media screen and (min-width: 992px) {
     
+    .drop ul {
+        width: 100%;
+        padding: 0;
+    }
+    #droptr:hover .drop {
+        position: absolute;
+        top:30px;
+        right: 0;
+        width: 200px;
+        text-align: center;
+        background-color: #3c4d2e; 
+        display: block;
+        z-index: 1;
+        padding-top: 28px;
+
+    }
+    .drop li {
+        padding: 6px 10px;
+    }
+    .drop ul {
+
+    }
+    .drop li{
+    }
+}
+.drop a {
+    padding: 10px auto;
 }
 
-@media screen and (min-width: 601px) {
-    .NavLink {
-        display: flex;
-        gap: 30px;
-    }
-    .button {
-        display: none;
-    }
+#droptr:hover .drop {
+    width: 200px;
+    display: block;
+}
+
+.drop {
+    display: none;
 }

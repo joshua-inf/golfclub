@@ -5,7 +5,7 @@ import Footer from './components/Footer';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Events from './components/pages/Events';
 import Contact from './components/pages/Contact';
-import About from './components/pages/About';
+import Shop from './components/pages/Shop';
 
 function App() {
   return (
@@ -23,7 +23,7 @@ function App() {
               <Route path='/golfclub/' element={<Home />} />
               <Route path='/golfclub/Events' element={<Events />} />
               <Route path='/golfclub/ContactUs' element={<Contact />} />
-              <Route path='/golfclub/ContactUs' element={<About />} />
+              <Route path='/golfclub/Shop' element={<Shop />} />
 
             </Routes>
           </div>
