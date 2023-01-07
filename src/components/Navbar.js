@@ -21,9 +21,7 @@ const Navitem = () => {
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav" className='justify-content-end'>
                         <Nav className="ml-auto">
-                            <LinkContainer to='/golfclub/'>
-                                <Nav.Link>Home</Nav.Link>
-                            </LinkContainer>
+                                <Nav.Link href='/golfclub/'>Home</Nav.Link>
                                 <Nav.Link id='droptr'style={{position:'relative'}} >About us
                                 <div className='drop'>
                                     <ul>
@@ -37,18 +35,10 @@ const Navitem = () => {
                                 </div>
                                 </Nav.Link>
                                 
-                            <LinkContainer to='/golfclub/Events'>
-                                <Nav.Link>Events</Nav.Link>
-                            </LinkContainer>
-                            <LinkContainer to='/golfclub/GolfTips'>
-                                <Nav.Link>Golf Tips</Nav.Link>
-                            </LinkContainer>
-                            <LinkContainer to='/golfclub/Shop'>
-                                <Nav.Link>Shop</Nav.Link>
-                            </LinkContainer>
-                            <LinkContainer to='/golfclub/ContactUs'>
-                                <Nav.Link>Contact us</Nav.Link>
-                            </LinkContainer>
+                                <Nav.Link href='/golfclub/Events'>Events</Nav.Link>
+                                <Nav.Link href='/golfclub/GolfTips'>Golf Tips</Nav.Link>
+                                <Nav.Link href='/golfclub/Shop'>Shop</Nav.Link>
+                                <Nav.Link href='/golfclub/ContactUs'>Contact us</Nav.Link>
                         </Nav>
                     </Navbar.Collapse>
                 </Container>
