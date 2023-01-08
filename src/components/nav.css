@@ -1,39 +1,38 @@
 @media screen and (min-width: 992px) {
     
     .drop ul {
-        width: 100%;
         padding: 0;
     }
-    #droptr:hover .drop {
+    .drop {
         position: absolute;
-        top:30px;
-        right: 0;
-        width: 200px;
-        text-align: center;
-        background-color: #3c4d2e; 
-        display: block;
+        top:40px;
+        background-color: hsl(93, 25%, 24%); 
+        height: 0px;
+        transition: 0.5s;
+        overflow: hidden;
+        position: absolute;
         z-index: 1;
-        padding-top: 28px;
+        width: 250px;
+
+    }
+    
+    #droptr:hover .drop {
+        height: 300px;
+        transition: 0.5s;
+        
 
     }
     .drop li {
         padding: 6px 10px;
     }
-    .drop ul {
-
-    }
-    .drop li{
-    }
-}
-.drop a {
-    padding: 10px auto;
-}
-
-#droptr:hover .drop {
-    width: 200px;
-    display: block;
 }
 
 .drop {
-    display: none;
+    height:0px;
+    overflow: hidden;
+    transition: 0.5s;
+}
+#droptr:hover .drop {
+    height: 260px;
+    transition: 0.5s;
 }

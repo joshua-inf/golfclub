@@ -6,6 +6,7 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Events from './components/pages/Events';
 import Contact from './components/pages/Contact';
 import Shop from './components/pages/Shop';
+import GolfTips from './components/pages/GolfTips';
 
 function App() {
   return (
@@ -14,7 +15,8 @@ function App() {
         <div style={{
           display:'flex',
           flexDirection:'column',
-          justifyContent:'space-between'
+          justifyContent:'space-between',
+          backgroundColor:'#ddd'
         }}>
           <Navitem />
 
@@ -24,6 +26,7 @@ function App() {
               <Route path='/golfclub/Events' element={<Events />} />
               <Route path='/golfclub/ContactUs' element={<Contact />} />
               <Route path='/golfclub/Shop' element={<Shop />} />
+              <Route path='/golfclub/GolfTips' element={<GolfTips/>} />
 
             </Routes>
           </div>
