@@ -2,6 +2,14 @@ import image from '../images/golf-w.png';
 import image1 from '../images/9.jpg';
 
 const Contact = () => {
+    let text = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliquaUt enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat'
+    const stuff = [
+        { title: 'Question', body: text },
+        { title: 'Question', body: text },
+        { title: 'Question', body: text },
+        { title: 'Question', body: text }
+
+    ]
     return (
         <>
             <div className='py-5' style={{
@@ -11,7 +19,7 @@ const Contact = () => {
             }}>
                 <div className='container' style={{
                     background: 'rgba(60, 77, 46, 0.6)',
-                    color:'white'
+                    color: 'white'
                 }}>
                     <div className='p-4' style={{
                         textAlign: 'center'
@@ -51,6 +59,60 @@ const Contact = () => {
                     </div>
                 </div>
 
+            </div>
+            <div className='p-2'>
+                <div>
+                    <div style={{ textAlign: 'center' }}>
+                        <h2>FAQs</h2>
+                    </div>
+                    <hr />
+                    <div className='container'>
+                        <div>
+                            <div className='row'>
+                                {stuff.map((e) => (
+                                    <>
+                                        <div className='col-12 col-md-6 col-lg-3'>
+                                            <div className='border border-secondary rounded p-3 m-2' style={{ textAlign: 'center' }}>
+                                                <h4>{e.title}</h4>
+                                                <hr />
+                                                <div>
+                                                    <p>
+                                                        {e.body}
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </>
+                                ))}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <hr/>
+                <div className='container-fluid'>
+                    <div style={{ textAlign: 'center' }}>
+                        <div>
+                            <h4>send us a message</h4>
+                            <div className='row mb-5'>
+                                <div className='col'>
+
+                                </div>
+                                <div className='col-lg-5 col-12 col-md-8'>
+                                    <div className='border py-2'>
+                                        <input type='text' className='p-1 my-2' placeholder='subject' style={{ width: '100%', border: 'none', outline: 'none', borderRadius: '5px' }} /><br />
+                                        <input type='text' className='p-1 mb-2' placeholder='from' style={{ width: '100%', border: 'none', outline: 'none', borderRadius: '5px' }} /><br />
+                                        <textarea placeholder='enter body ' fixed style={{ width: '100%', height: '200px', resize: 'none', border: 'none', outline: 'none', borderRadius: '5px' }} />
+                                    </div>
+                                    <button className='w-75 btn btn-light'>send</button>
+                                </div>
+                                <div className='col'>
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
             </div>
         </>
     )

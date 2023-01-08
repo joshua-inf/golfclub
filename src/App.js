@@ -7,6 +7,7 @@ import Events from './components/pages/Events';
 import Contact from './components/pages/Contact';
 import Shop from './components/pages/Shop';
 import GolfTips from './components/pages/GolfTips';
+import Team from './components/pages/underAbout/OMTeam';
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
               <Route path='/golfclub/ContactUs' element={<Contact />} />
               <Route path='/golfclub/Shop' element={<Shop />} />
               <Route path='/golfclub/GolfTips' element={<GolfTips/>} />
+              <Route path='/OurManagementTeam' element={<Team/>} />
 
             </Routes>
           </div>

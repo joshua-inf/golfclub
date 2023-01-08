@@ -27,7 +27,12 @@ const Navitem = () => {
                                 <Nav.Link id='droptr'style={{position:'relative'}} >About us
                                 <div className='drop'>
                                     <ul>
-                                        <li><Nav.Link>Our Management Team</Nav.Link></li>
+                                        <li>
+                                            <LinkContainer to='/ourManagementTeam'>
+                                                <Nav.Link>Our Management Team</Nav.Link>
+                                            </LinkContainer>
+                                        </li>
+                                        
                                         <li><Nav.Link>Course History</Nav.Link></li>
                                         <li><Nav.Link>Course Tour</Nav.Link></li>
                                         <li><Nav.Link>Signature Design</Nav.Link></li>
