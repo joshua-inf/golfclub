@@ -98,10 +98,11 @@ const Contact = () => {
 
                                 </div>
                                 <div className='col-lg-5 col-12 col-md-8'>
-                                    <div className='border py-2'>
-                                        <input type='text' className='p-1 my-2' placeholder='subject' style={{ width: '100%', border: 'none', outline: 'none', borderRadius: '5px' }} /><br />
-                                        <input type='text' className='p-1 mb-2' placeholder='from' style={{ width: '100%', border: 'none', outline: 'none', borderRadius: '5px' }} /><br />
-                                        <textarea placeholder='enter body ' fixed style={{ width: '100%', height: '200px', resize: 'none', border: 'none', outline: 'none', borderRadius: '5px' }} />
+                                    <div className='border py-2 px-1'>
+                                        <input type='text' className='p-1 bg-light my-2' placeholder='subject' style={{ width: '100%', border: 'none', outline: 'none', borderRadius: '5px' }} /><br />
+    
+                                        <input type='text' className='p-1 bg-light mb-2' placeholder='from' style={{ width: '100%', border: 'none', outline: 'none', borderRadius: '5px' }} /><br />
+                                        <textarea placeholder='enter body ' className='bg-light' fixed style={{ width: '100%', height: '200px', resize: 'none', border: 'none', outline: 'none', borderRadius: '5px' }} />
                                     </div>
                                     <button className='w-75 btn btn-light'>send</button>
                                 </div>

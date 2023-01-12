@@ -33,8 +33,17 @@ const Navitem = () => {
                                             </LinkContainer>
                                         </li>
                                         
-                                        <li><Nav.Link>Course History</Nav.Link></li>
-                                        <li><Nav.Link>Course Tour</Nav.Link></li>
+                                        <li>
+                                            <LinkContainer to='/CourseHistory'>
+                                                <Nav.Link>Course History</Nav.Link>
+                                            </LinkContainer>
+                                        </li>
+
+                                        <li>
+                                            <LinkContainer to='/CourseTour'>
+                                                <Nav.Link>Course Tour</Nav.Link>
+                                            </LinkContainer>
+                                        </li>
                                         <li><Nav.Link>Signature Design</Nav.Link></li>
                                         <li><Nav.Link>Awards Of Events</Nav.Link></li>
 

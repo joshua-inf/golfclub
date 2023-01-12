@@ -8,6 +8,8 @@ import Contact from './components/pages/Contact';
 import Shop from './components/pages/Shop';
 import GolfTips from './components/pages/GolfTips';
 import Team from './components/pages/underAbout/OMTeam';
+import History from './components/pages/underAbout/CourseHistory';
+import Tour from './components/pages/underAbout/Tour';
 
 function App() {
   return (
@@ -17,7 +19,6 @@ function App() {
           display:'flex',
           flexDirection:'column',
           justifyContent:'space-between',
-          backgroundColor:'#ddd'
         }}>
           <Navitem />
 
@@ -29,6 +30,9 @@ function App() {
               <Route path='/golfclub/Shop' element={<Shop />} />
               <Route path='/golfclub/GolfTips' element={<GolfTips/>} />
               <Route path='/OurManagementTeam' element={<Team/>} />
+              <Route path='/CourseHistory' element={<History/>} />
+              <Route path='/CourseTour' element={<Tour/>} />
+
 
             </Routes>
           </div>
