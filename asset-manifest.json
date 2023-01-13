@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/golfclub/static/css/main.d8174896.css",
-    "main.js": "/golfclub/static/js/main.9502b88d.js",
+    "main.css": "/golfclub/static/css/main.16afb443.css",
+    "main.js": "/golfclub/static/js/main.e88792ed.js",
     "static/js/787.9289653d.chunk.js": "/golfclub/static/js/787.9289653d.chunk.js",
     "static/media/2.mp4": "/golfclub/static/media/2.0ddfb6491f6ea130eca6.mp4",
     "static/media/4.mp4": "/golfclub/static/media/4.0ddfb6491f6ea130eca6.mp4",
@@ -31,12 +31,12 @@
     "static/media/golf-w.png": "/golfclub/static/media/golf-w.8a3c0cf580192c86ad7d.png",
     "static/media/26.jpg": "/golfclub/static/media/26.2aeef73546f9dbebe3e3.jpg",
     "index.html": "/golfclub/index.html",
-    "main.d8174896.css.map": "/golfclub/static/css/main.d8174896.css.map",
-    "main.9502b88d.js.map": "/golfclub/static/js/main.9502b88d.js.map",
+    "main.16afb443.css.map": "/golfclub/static/css/main.16afb443.css.map",
+    "main.e88792ed.js.map": "/golfclub/static/js/main.e88792ed.js.map",
     "787.9289653d.chunk.js.map": "/golfclub/static/js/787.9289653d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d8174896.css",
-    "static/js/main.9502b88d.js"
+    "static/css/main.16afb443.css",
+    "static/js/main.e88792ed.js"
   ]
 }
