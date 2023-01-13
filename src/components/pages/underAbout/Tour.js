@@ -61,7 +61,7 @@ const Tour = () => {
                             </div>
                         </div>
                         <div className='py-4'>
-                            <div className='text-secondary'>
+                            <div className='text-secondary tour'>
                                 <Swiper
                                     navigation={true}
                                     pagination={pagination}
