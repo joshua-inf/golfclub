@@ -10,6 +10,8 @@ import GolfTips from './components/pages/GolfTips';
 import Team from './components/pages/underAbout/OMTeam';
 import History from './components/pages/underAbout/CourseHistory';
 import Tour from './components/pages/underAbout/Tour';
+import Sign from './components/pages/underAbout/Signature';
+import Awards from './components/pages/underAbout/Awards';
 
 function App() {
   return (
@@ -32,6 +34,10 @@ function App() {
               <Route path='/OurManagementTeam' element={<Team/>} />
               <Route path='/CourseHistory' element={<History/>} />
               <Route path='/CourseTour' element={<Tour/>} />
+              <Route path='/SignatureDesign' element={<Sign/>} />
+              <Route path='/Awards' element={<Awards/>} />
+
+
 
 
             </Routes>

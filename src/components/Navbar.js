@@ -24,7 +24,7 @@ const Navitem = () => {
                             <LinkContainer to='/golfclub/'>
                                 <Nav.Link>Home</Nav.Link>
                             </LinkContainer>
-                                <Nav.Link id='droptr'style={{position:'relative'}} >About us
+                            <Nav.Link id='droptr' style={{ position: 'relative' }} >About us
                                 <div className='drop'>
                                     <ul>
                                         <li>
@@ -32,7 +32,7 @@ const Navitem = () => {
                                                 <Nav.Link>Our Management Team</Nav.Link>
                                             </LinkContainer>
                                         </li>
-                                        
+
                                         <li>
                                             <LinkContainer to='/CourseHistory'>
                                                 <Nav.Link>Course History</Nav.Link>
@@ -44,13 +44,23 @@ const Navitem = () => {
                                                 <Nav.Link>Course Tour</Nav.Link>
                                             </LinkContainer>
                                         </li>
-                                        <li><Nav.Link>Signature Design</Nav.Link></li>
-                                        <li><Nav.Link>Awards Of Events</Nav.Link></li>
+
+                                        <li>
+                                            <LinkContainer to='/SignatureDesign'>
+                                                <Nav.Link>Signature Design</Nav.Link>
+
+                                            </LinkContainer>
+                                        </li>
+                                        <li>
+                                            <LinkContainer to='/Awards'>
+                                                <Nav.Link>Awards Of Events</Nav.Link>
+                                            </LinkContainer>                                            
+                                        </li>
 
                                     </ul>
                                 </div>
-                                </Nav.Link>
-                                
+                            </Nav.Link>
+
                             <LinkContainer to='/golfclub/Events'>
                                 <Nav.Link>Events</Nav.Link>
                             </LinkContainer>
