@@ -16,18 +16,24 @@ import { EffectCards } from "swiper";
 import image from '../../images/s.jpg'
 import image1 from '../../images/21.jpg'
 import image2 from '../../images/22.jpg'
+import image3 from '../../images/back4.jpg'
 import Info from "./info";
 
 
 const Team = () => {
 
     return (
-        <>
-            <div className="m-3" style={{zIndex:'-1'}}>
-                <div className="text-secondary" style={{ textAlign: 'center', fontWeight: '800', fontSize: '20px' }}>
-                    Our Management Team
+        <><div className='p-5 text-center bg-image' style={{ background: `url(${image3}) no-repeat center`, backgroundPositionY: '20%', backgroundSize: 'cover', height: '50vh' }}>
+        <div className='mask' style={{ backgroundColor: 'rgba(0, 0, 0, 0.6)' }}>
+            <div className='d-flex justify-content-center align-items-center h-100'>
+                <div className='text-white'>
+                    <h1 className='mb-3'>mazabuka golfclub</h1>
+                    <h4 className='mb-3'>Our Management Team</h4>
                 </div>
-                <hr />
+            </div>
+        </div>
+    </div>
+            <div className="m-3" style={{zIndex:'-1'}}>
                 <div className="p-4">
                     <div className="row">
                         <div className="col-12 col-md-5 p-3">

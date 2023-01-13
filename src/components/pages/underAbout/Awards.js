@@ -30,10 +30,10 @@ const Awards = () => {
                                             <h6 className='text-secondary mb-0 h3'>2022</h6>
                                             <hr className='mt-0'/>
                                             <div className='row'>
-                                                <div className='col-12 col-md-4'>
+                                                <div className='col-12 col-md-5'>
                                                     <img alt='' src={image1} width='100%' />
                                                 </div>
-                                                <div className='col-12 col-md-8'>
+                                                <div className='col-12 col-md-7'>
                                                     <div>
                                                         <h4>heading here</h4>
                                                         <p>
@@ -52,10 +52,10 @@ const Awards = () => {
                                             <h6 className='text-secondary mb-0 h3'>2020</h6>
                                             <hr className='mt-0'/>
                                             <div className='row'>
-                                                <div className='col-12 col-md-4'>
+                                                <div className='col-12 col-md-5'>
                                                     <img alt='' src={image3} width='100%' />
                                                 </div>
-                                                <div className='col-12 col-md-8'>
+                                                <div className='col-12 col-md-7'>
                                                     <div>
                                                         <h4>heading here</h4>
                                                         <p>
@@ -75,10 +75,10 @@ const Awards = () => {
                                             <h6 className='text-secondary mb-0 h3'>2018</h6>
                                             <hr className='mt-0'/>
                                             <div className='row'>
-                                                <div className='col-12 col-md-4'>
+                                                <div className='col-12 col-md-5'>
                                                     <img alt='' src={image2} width='100%' />
                                                 </div>
-                                                <div className='col-12 col-md-8'>
+                                                <div className='col-12 col-md-7'>
                                                     <div>
                                                         <h4>heading here</h4>
                                                         <p>
