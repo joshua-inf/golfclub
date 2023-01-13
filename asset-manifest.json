@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/golfclub/static/css/main.16afb443.css",
-    "main.js": "/golfclub/static/js/main.6cc87c3c.js",
+    "main.js": "/golfclub/static/js/main.c3f45463.js",
     "static/js/787.9289653d.chunk.js": "/golfclub/static/js/787.9289653d.chunk.js",
     "static/media/2.mp4": "/golfclub/static/media/2.0ddfb6491f6ea130eca6.mp4",
     "static/media/4.mp4": "/golfclub/static/media/4.0ddfb6491f6ea130eca6.mp4",
@@ -22,6 +22,7 @@
     "static/media/back2.jpg": "/golfclub/static/media/back2.e9f81d739309224702c1.jpg",
     "static/media/back3.png": "/golfclub/static/media/back3.7ca8f21a562d51899716.png",
     "static/media/golf.jpg": "/golfclub/static/media/golf.f175f754131b949cf36a.jpg",
+    "static/media/back4.jpg": "/golfclub/static/media/back4.bde93f3b8e437f8c53e5.jpg",
     "static/media/23.jpg": "/golfclub/static/media/23.962fc0f3bce0ab0e52bd.jpg",
     "static/media/back.webp": "/golfclub/static/media/back.048687cc9dde9b898117.webp",
     "static/media/24.jpg": "/golfclub/static/media/24.56acebea9d1980ab50b8.jpg",
@@ -40,11 +41,11 @@
     "static/media/26.jpg": "/golfclub/static/media/26.2aeef73546f9dbebe3e3.jpg",
     "index.html": "/golfclub/index.html",
     "main.16afb443.css.map": "/golfclub/static/css/main.16afb443.css.map",
-    "main.6cc87c3c.js.map": "/golfclub/static/js/main.6cc87c3c.js.map",
+    "main.c3f45463.js.map": "/golfclub/static/js/main.c3f45463.js.map",
     "787.9289653d.chunk.js.map": "/golfclub/static/js/787.9289653d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.16afb443.css",
-    "static/js/main.6cc87c3c.js"
+    "static/js/main.c3f45463.js"
   ]
 }
