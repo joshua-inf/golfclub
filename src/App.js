@@ -12,6 +12,7 @@ import History from './components/pages/underAbout/CourseHistory';
 import Tour from './components/pages/underAbout/Tour';
 import Sign from './components/pages/underAbout/Signature';
 import Awards from './components/pages/underAbout/Awards';
+import Rates from './components/pages/Rates';
 
 function App() {
   return (
@@ -23,7 +24,6 @@ function App() {
           justifyContent:'space-between',
         }}>
           <Navitem />
-
           <div>
             <Routes>
               <Route path='/golfclub/' element={<Home />} />
@@ -36,9 +36,7 @@ function App() {
               <Route path='/CourseTour' element={<Tour/>} />
               <Route path='/SignatureDesign' element={<Sign/>} />
               <Route path='/Awards' element={<Awards/>} />
-
-
-
+              <Route path='/Rates' element={<Rates/>} />
 
             </Routes>
           </div>

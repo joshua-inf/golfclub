@@ -1,6 +1,13 @@
+import { Link } from 'react-router-dom'
 import image from './images/1.jpg'
 import image_ from './images/4.jpg'
 import image_1 from './images/golf-w.png'
+import image1 from './images/m1.webp'
+import image2 from './images/m2.jpg'
+import image3 from './images/m3.jpeg'
+import image4 from './images/m4.webp'
+import './nav.css'
+
 const Home = () => {
 
     const Main = () => {
@@ -30,7 +37,6 @@ const Home = () => {
                             alignContent:'space-between',
                             justifyContent: 'space-around',
                             flexDirection: 'column',
-
                             top: '35%',
                             left:'0',
                             right:'0',
@@ -60,7 +66,11 @@ const Home = () => {
                 <div style={{
                     width: '100%',
                     background:`url(${image_}) no-repeat fixed center`,
-                    backgroundSize:'cover'
+                    backgroundSize:'cover',
+                    paddingTop:'100px',
+                    paddingBottom:'100px'
+
+
                     
                 }}>
                     <div className='p-3'>
@@ -74,11 +84,18 @@ const Home = () => {
                                     display:'flex',
                                     flexDirection:'column',
                                     justifyContent: 'space-between',
-                                    background: 'rgba(80, 107, 58, 0.6)',
-                                    color:'white'
-                                }} className=''>
-                                    <h3 className='my-5'>Rates and packages</h3>
-                                    <button className='btn rounded-0 btn-light w-100'>go</button>
+                                    color:'white',
+                                    position:'relative',
+                                    overflow:'hidden'
+                                }} className='hover'>
+                                    <div style={{
+                                        position:'absolute',
+                                        opacity:'0.5'
+                                    }}>
+                                        <img style={{transform:'scale(3) translatey(5%)'}} alt='' src={image1} width='100%'/>
+                                    </div>
+                                    <h3 style={{zIndex:'1'}} className='my-5'>Rates and packages</h3>
+                                    <Link to='/Rates' style={{zIndex:'1'}} className='btn rounded-0 btn-light w-100'>go</Link>
                                 </div>
                                 
                             </div>
@@ -91,11 +108,18 @@ const Home = () => {
                                     display:'flex',
                                     flexDirection:'column',
                                     justifyContent: 'space-between',
-                                    background: 'rgba(80, 107, 58, 0.6)',
-                                    color:'white'
-                                }} className=''>
-                                    <h3 className='my-5'>Junior Programs</h3>
-                                    <button className='btn rounded-0 btn-light w-100'>go</button>
+                                    color:'white',
+                                    position:'relative',
+                                    overflow:'hidden'
+                                }} className='hover'>
+                                    <div style={{
+                                        position:'absolute',
+                                        opacity:'0.5'
+                                    }}>
+                                        <img style={{transform:'scale(3) translatey(5%)'}} alt='' src={image2} width='100%'/>
+                                    </div>
+                                    <h3 style={{zIndex:'1'}} className='my-5'>Junior Programs</h3>
+                                    <button style={{zIndex:'1'}} className='btn rounded-0 btn-light w-100'>go</button>
                                 </div>
                                 
                             </div>
@@ -108,11 +132,18 @@ const Home = () => {
                                     display:'flex',
                                     flexDirection:'column',
                                     justifyContent: 'space-between',
-                                    background: 'rgba(80, 107, 58, 0.6)',
-                                    color:'white'
-                                }} className=''>
-                                    <h3 className='my-5'>Discover our Services</h3>
-                                    <button className='btn rounded-0 btn-light w-100'>go</button>
+                                    color:'white',
+                                    overflow:'hidden',
+                                    position:'relative'
+                                }} className='hover'>
+                                    <div style={{
+                                        position:'absolute',
+                                        opacity:'0.7'
+                                    }}>
+                                        <img style={{transform:'scale(3) translatey(-10%)'}} alt='' src={image3} width='100%'/>
+                                    </div>
+                                    <h3 style={{zIndex:'1'}} className='my-5'>Host a Golf Tournament</h3>
+                                    <Link to='/SignatureDesign' style={{zIndex:'1'}} className='btn rounded-0 btn-light w-100'>go</Link>
                                 </div>
                                 
                             </div>
@@ -125,11 +156,18 @@ const Home = () => {
                                     display:'flex',
                                     flexDirection:'column',
                                     justifyContent: 'space-between',
-                                    background: 'rgba(80, 107, 58, 0.6)',
-                                    color:'white'
-                                }} className=''>
-                                    <h3 className='my-5'>Host a Golf Tournament</h3>
-                                    <button className='btn rounded-0 btn-light w-100'>go</button>
+                                    color:'white',
+                                    position:'relative',
+                                    overflow:'hidden'
+                                }} className='hover'>
+                                    <div style={{
+                                        position:'absolute',
+                                        opacity:'0.5'
+                                    }}>
+                                        <img style={{transform:'scale(2) translatey(-10%)'}} alt='' src={image4} width='100%'/>
+                                    </div>
+                                    <h3 style={{zIndex:'1'}} className='my-5'>Discover our Services</h3>
+                                    <Link to='/SignatureDesign' style={{zIndex:'1'}} className='btn rounded-0 btn-light w-100'>go</Link>
                                 </div>
                                 
                             </div>
